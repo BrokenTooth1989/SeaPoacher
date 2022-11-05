@@ -42,7 +42,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normals:
-        m_Texture: {fileID: 2800000, guid: 3a41e7c7976846a47a62be3520f418ed, type: 3}
+        m_Texture: {fileID: 2800000, guid: c3fc283aa0eb2ac4dbf2e234343bb6a5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Reflection:
@@ -69,9 +69,9 @@ Material:
     m_Floats:
     - _ChromaticAberration: 0.3
     - _Cutoff: 0.5
-    - _Depth: 13
+    - _Depth: 20
     - _Depthdarkness: 0
-    - _ENABLE_GRADIENT: 0
+    - _ENABLE_GRADIENT: 1
     - _ENABLE_SHADOWS: 0
     - _ENABLE_VC: 0
     - _EdgeFade: 0.2448298
@@ -80,7 +80,7 @@ Material:
     - _FoamSize: 0
     - _FoamSpeed: 0.1
     - _FoamTiling: 0.15
-    - _Fresnelexponent: 47.21
+    - _Fresnelexponent: 47
     - _Glossiness: 0.804
     - _Gradient: 0
     - _HighlightPanning: 0
@@ -100,7 +100,7 @@ Material:
     - _Reflection: 0
     - _ReflectionFresnel: 2.43
     - _ReflectionRefraction: 0.014
-    - _ReflectionStrength: 0.583
+    - _ReflectionStrength: 0.58
     - _RefractionAmount: 0.0247
     - _RimDistance: 1.91
     - _RimDistortion: 0.139
@@ -119,7 +119,7 @@ Material:
     - _Transparency: 0.941
     - _USE_VC_INTERSECTION: 0
     - _Unlit: 0
-    - _UseIntersectionFoam: 1
+    - _UseIntersectionFoam: 0
     - _UseIntersectionHighlight: 1
     - _WaveFoam: 0
     - _WaveHeight: 0.011
@@ -127,11 +127,11 @@ Material:
     - _Wavefoam: 1
     - _Wavesspeed: 0.75
     - _Wavesstrength: 0.268
-    - _Wavetint: -0.077
+    - _Wavetint: 0.1
     - _Worldspacetiling: 1
     - __dirty: 0
     m_Colors:
-    - _FresnelColor: {r: 0.5, g: 0.8551724, b: 1, a: 0.666}
+    - _FresnelColor: {r: 0.2679245, g: 0.7867181, b: 1, a: 0.666}
     - _RimColor: {r: 1, g: 1, b: 1, a: 0.453}
     - _WaterColor: {r: 0.1176082, g: 0.63488847, b: 1, a: 0}
     - _WaterShallowColor: {r: 0.41907868, g: 1, b: 0.8798174, a: 1}
